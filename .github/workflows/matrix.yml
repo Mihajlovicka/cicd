@@ -16,6 +16,8 @@ jobs:
             node_version: 14
           - os: macos-latest
             node_version: 14
+          - os: macos-latest
+            node_version: 15
       #max-parallel: 2
     runs-on: ${{ matrix.os}}
     env: 
